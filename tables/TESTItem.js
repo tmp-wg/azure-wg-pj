@@ -24,7 +24,7 @@ var table = azureMobileApps.table();
 table.dynamicSchema = true;
 
 // Configure table options
-table.access = 'authenticated';
+//table.access = 'authenticated';
 
 // Configure specific code when the client does a request
 // READ - only return records belonging to the authenticated user
